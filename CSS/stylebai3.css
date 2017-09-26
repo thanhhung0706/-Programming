@@ -1,0 +1,18 @@
+#demo{
+	font-family: "Verdana";
+	font-size: 10pt;
+	letter-spacing: 3px;
+	line-height: 2em;
+	word-spacing: 5px;
+
+	border: 2px solid blue;
+	width: 400px;
+	text-align: justify;
+	margin: 20px 0px 10px 50px;  /* top right bot left 
+	20px auto nghĩa là trên dưới 20px , và giãn đều sang 2 bên
+	*/
+
+	padding: 10px;
+	float: right; /* nhảy sang trái hoặc phải */
+	text-decoration: underline;
+}

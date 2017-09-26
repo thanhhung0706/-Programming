@@ -1,0 +1,23 @@
+#test3{
+	color: white;
+	background: black;
+	margin: 5px auto;
+	padding: 20px;
+}
+
+#demoID{
+	width: 200px;
+	height: 100px;
+	background: red;
+}
+
+.demoClass{
+	width: 500px;
+	height: 300px;
+	background: yellow;
+	margin: 10px 20px auto;
+}
+
+p{
+	color: blue;
+}

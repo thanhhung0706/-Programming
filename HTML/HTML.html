@@ -1,0 +1,157 @@
+<!DOCTYPE html> <!-- Version HTML (html=html5) -->
+<html lang="vi">
+<head> <!-- thông tin + cấu hình -->
+	<meta charset="UTF-8"> <!-- khai báo dữ liệu vĩ mô -->
+	<meta name="author" content="hung.7hemagician" />
+    <meta name="description" content="Hoc HTML toan tap mien phi tai www.thachpham.com, day la noi dung bai hoc." />
+    <meta name="keyword" content="Hoc html, huong dan html, html co ban" />
+	<title>Tiêu Đề</title>
+</head>
+<body>
+	<!-- Comment
+		<h1>-><h5> thẻ tiêu đề
+		<br> để xuống dòng
+	-->
+	<h1 align="left">Nội dung H1</h1>
+	<h2 align="left">Nội dung H1</h2>
+	<h3 align="left">Nội dung H1</h3>
+	<h4 align="left">Nội dung H1</h4>
+	<h5 align="left">Nội dung H1</h5>
+	<h6 align="left">Nội dung H1</h6>
+
+
+	<hr> <!-- tạo đường ngang -->
+
+	<p>Ở trên là một đoạn kẻ ngang được khai báo bằng thẻ <code>&lt;hr&gt;</code>.</p> 
+
+	<p>Nếu bạn cần nhấn mạnh gì đó, bạn có thể <em>viết như thế này</em>.</p><br>
+
+	<mark>abc</mark><br>
+
+	<quote>
+	 <p>Thoạt nhìn đoạn văn này tưởng nó không có nghĩa, nhưng khi nhìn kỹ lại thì đúng là chẳng có nghĩa gì.</p>
+	  <cite>- Thạch Phạm</cite>
+	</quote>
+
+	<p>
+	  To learn AJAX, you must be <mark>familiar</mark> with the XML<wbr>Http<wbr>Request Object.
+	</p>
+
+	<p><!-- Tag <span> được sử dụng để nhóm các inline trong văn bản HTML.-->
+	  <span style="color: white; background-color: red">Đây là một văn bản có thuộc tính style</span>. Nếu bạn muốn dùng nhiều style trong một đoạn văn thì có thể sử dụng thẻ <code>&lt;span&gt;</code> để thêm <span style="color: blue">nhiều style</span> khác nhau.
+	</p>
+
+	<i>In Nghiên</i><br>
+
+	<b>In Đậm</b><br>
+
+	<u>Gạch dưới</u><br>
+
+	<strike>gạch ngang</strike><br>
+
+	<big>Font chữ lớn hơn</big><br>
+
+	<small>Font chữ nhở hơn</small><br>
+
+	H<sub>2</sub>O<br>
+
+	10<sup>2</sup><br>
+
+	<strong>Nhấn mạnh</strong><br>
+
+	<em>Nhấn mạnh chữ in nghiêng</em><br>
+
+	<!-- Thẻ định dạng Font và thẻ định dạng văn bản -->
+	<font face="Times New Roman" size="6" color="red">
+		Đây là Đoạn văn bản đã được chỉnh FONT
+	</font>		
+
+	<!-- <p> thẻ đoạn văn -->
+	<p align="justify">What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+	<!-- nhóm thẻ danh sách <ul><li><ol> -->
+	<ul>
+		<li>số 1</li>
+		<li>số 2</li>
+		<li>số 3</li>
+		<li>số 4</li>
+	</ul>
+
+	<ol type="I">
+		<li>Số 1
+				<ul>
+					<li>số 1</li>
+					<li>số 2</li>
+					<li>số 3</li>
+					<li>số 4</li>
+				</ul>
+		</li>
+		<li>số 2</li>
+		<li>số 3</li>
+		<li>số 4</li>
+	</ol>
+
+	<!-- decscription list -->
+	<p>Một website gồm có</p>
+	<dl>
+	  <dt>HTML</dt>
+	  <dd>- khung xương của website.</dd>
+	  
+	  <dt>CSS</dt>
+	  <dd>- bộ da của website</dd>
+	  
+	  <dt>Javascript</dt>
+	  <dd>- bộ cánh của website</dd>
+	  
+	  <dt>Ngôn ngữ server-side (ASP.NET, PHP, RUBY,..)</dt>
+	  <dd>- linh hồn của website</dd>
+	</dl>
+
+	<ul>
+	  <li>WordPress
+	    <ul>
+	      <li>WordPress Themes</li>
+	      <li>WordPress Plugin</li>
+	    </ul>
+	  </li>
+	  <li>Front-end
+	    <ul>
+	      <li>HTML</li>
+	      <li>CSS</li>
+	      <li>Javascript (jQuery, AngularJS,..)</li>
+	    </ul>
+	  </li>
+	</ul>
+	<!-- Nhóm thẻ định dạng bảng <table><tr><td><th> -->
+	<table border="1" align="center" cellpadding="5" cellspacing="3"> <!-- cellpadding khoảng đệm , cellspacing khoảng cách giữa các ô -->
+		<tr>
+			<th>1</th>
+			<th>2</th>
+		</tr>
+		<tr>
+			<td>nội dung ô thứ nhất</td>
+			<td>nội dung ô thứ 2</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" bgcolor="blue">nội dung ô sát nhập</td> <!-- colspan = sát nhập ô -->
+		</tr>
+	</table><br>
+
+	<!-- Thẻ liên kết trong HTML (quan trọng) 
+	gồm 2 loại : liên kết nội bộ (anchor) và liên kết bên ngoài	-->
+	<a href="index.html" target="_blank">Liên kết nội bộ</a><br> <!-- target: _blank=newtab -->
+	<a href="http://vnexpress.net">VnExpress (liên kết ngoại)</a>
+
+	<a href="#than-bai">Xem thân bài</a>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam mattis maximus. Phasellus facilisis felis massa, at bibendum lorem fringilla ut. Sed ipsum sapien, elementum id felis ut, iaculis pulvinar elit.</p>
+
+	<p id="than-bai"><strong>Đây là thân bài</strong></p>
+
+	<p>Etiam efficitur felis ac dui tincidunt egestas. Vestibulum auctor justo tellus, ut posuere eros sagittis id. Etiam dignissim blandit porta. Nunc eu suscipit ipsum, vehicula mollis nisi. Nam non iaculis leo. Duis euismod pharetra vestibulum. Praesent cursus ut purus egestas cursus. Nulla eget volutpat neque. Aliquam erat volutpat. Sed at metus convallis, ultrices diam ut, iaculis neque. Nullam purus lacus, ullamcorper a libero sed, facilisis blandit turpis. Nam ac massa ut elit mollis luctus at eu dui. Nullam eu turpis quis eros iaculis convallis in non neque.</p>
+
+	<p>Etiam efficitur felis ac dui tincidunt egestas. Vestibulum auctor justo tellus, ut posuere eros sagittis id. Etiam dignissim blandit porta. Nunc eu suscipit ipsum, vehicula mollis nisi. Nam non iaculis leo. Duis euismod pharetra vestibulum. Praesent cursus ut purus egestas cursus. Nulla eget volutpat neque. Aliquam erat volutpat. Sed at metus convallis, ultrices diam ut, iaculis neque. Nullam purus lacus, ullamcorper a libero sed, facilisis blandit turpis. Nam ac massa ut elit mollis luctus at eu dui. Nullam eu turpis quis eros iaculis convallis in non neque.</p>
+
+
+</body>
+</html>
