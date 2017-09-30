@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascripts</title>
+	<style>
+		#div{
+			margin: 10px;
+			padding: 20px;
+			background: teal;
+			color: white;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" name="btnShow" value="show" onclick="hien()" />
+	<input type="button" name="btnHide" value="hide" onclick="an()" />
+	<div id="div">
+		Nội dung sẽ ẩn hoặc hiện khi nhấn nút
+	</div>
+	<script>
+		function hien(){
+			document.getElementById("div").style.display = "block";
+		}
+		function an(){
+			document.getElementById("div").style.display = "none";
+		}
+	</script>
+</body>
+</html>

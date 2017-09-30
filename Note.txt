@@ -1,0 +1,1 @@
+﻿Hạn chế sử dụng table trong website vì chứa quá nhiều thẻ , sẽ làm web chậm, ưu tiên xài thẻ div
